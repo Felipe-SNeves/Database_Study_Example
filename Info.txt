@@ -1,0 +1,25 @@
+Projeto P1 - Parte 2 - Informações
+
+Esse trabalho foi realizado por Felipe Neves e Filipi Nudi para a disciplina Laboratório de Banco de Dados,
+ministrada pelo professor Antônio Guardado.
+
+Para a realização dessa segunda etapa, foi necessário reformular o banco de dados, de modo que, fosse possível 
+realizar todas as consultas e tudo aquilo que foi solicitado na segunda parte. Portanto, antes do início da segunda fase 
+do projeto foram realizadas modificações essenciais na estrutura do banco de dados para que o que foi solicitado 
+fosse atendido.
+
+Devido a isso, na pasta Adicionais, foram colocados a versão inicial da base de dados, apresentada na primeira fase 
+do projeto, e a versão pós-reestruturação na segunda fase, todas com seus respectivos script's, diagramas 
+entidade-relacionamento, esquema de relações, diagrama conceitual e dicionário de dados. 
+Além de que na versão reestruturada, há notas que indicam o que foi reestruturado e porque dessa reestruturação de maneira
+mais detalhada.
+
+Por fim, se torna necessário comentar que, no diretório principal da entrega do trabalho se encontram o 
+Diagrama Entidade Relacionamento, tanto em PDF quanto no arquivo original do SQL Architect, solicitado, 
+o Esquema de Relações e o Script Completo do Banco de Dados, sendo que ele engloba todas as partes realizadas no projeto,
+tanto a primeira quanto a segunda.
+
+Foi incluído também no diretório principal as partes específicas da segunda etapa, de maneira individual, de modo que a
+consulta delas possa ser realizada de maneira mais simples. Cabe também mencionar, que junto as informações da versão 
+inicial e da reestruturada, no diretório Adicionais, há também o diagrama conceitual da base de dados da segunda fase 
+do projeto, montado na ferramenta brModelo, tendo seu arquivo fonte e seu PNG exportado, além de seu respectivo dicionário de dados.

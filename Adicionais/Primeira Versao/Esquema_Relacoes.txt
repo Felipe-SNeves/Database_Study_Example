@@ -1,0 +1,8 @@
+/*** ESQUEMA DE RELAÇÕES - SISTEMA DE SAÚDE
+Unidade(cod_uni(PK),nome_uni,end_uni,fone_uni,cood_uni,zona_uni,dist_uni);
+Hospital(cod_uni(PK)(FK),num_emergencia,num_uti);
+Posto(cod_uni(PK)(FK),desc_vacinas,atend_pres);
+Medico(num_funcionario(PK),cod_uni(FK),num_crm(U),hora_trab,nome_med);
+Atendimento(num_atendimento(PK),num_funcionario(FK),id_paciente(FK),tipo(CK),estado(CK),diagnostico,data_hora_atend,prescricao,cid);
+Paciente(id_paciente(PK),nome_paciente,end_paciente,fone_paciente,num_rg(U),num_cpf(U),num_sus(U),email,dt_nascimento);
+***/

@@ -1,0 +1,29 @@
+Trabalho realizado para a disciplina de Laboratório de Banco de Dados, ministrada pelo professor Antônio Guardado.
+Nessa pasta se encontra a documentação do banco de dados reformulado. Após a correção do banco de dados na última aula e
+dada a proposta da segunda parte do projeto, foi verificado que o banco de dados necessitava passar por uma reformulação,
+inspirada pela solução proposta pelo professor. Essa reformulação foi proposta e realizada sobre o modelo anteriormente feito,
+de modo que o banco aqui apresentando é o mesmo do anterior, porém com consideravéis alterações em sua estrutura. Logo, nenhuma
+nova base de dados foi criada na reformulação, sendo assim, somos, inclusive, mais expostos aos códigos SQL, de modo que acabamos
+absorvendo mais conteúdo nessa reformulação.
+
+A reformulação se centrou em quatro questões:
+
+1- A distribuição dos dados da tabela Atendimento, concentrados em uma tabela única, para quatro tabelas mais especificas, 
+seguindo o modelo de generalização/especialização, a saber: consulta, pronto-socorro (socorro), internação e vacinação.
+Sendo a última de crucial importância para a realização da segunda etapa da atividade. Foi colocado apenas o necessário para
+que a segunda parte possa ser realizada de maneira integra, de modo que a reformulação não afetasse a realização da segunda parte,
+caso que poderia ocorrer caso o que é pedido na tarefa fosse incluído na reformulação.
+
+2- Anteriormente, não havia um controle específico entre os tipos de atendimentos prestados em cada unidade. O relacionamento
+era realizado de maneira indireta pela entidade médico. Com a reformulação, baseada na solução proposta em aula, esse aspecto
+foi reformulado de modo a contemplar esse requisito de maneira mais específica.
+
+3- O mesmo ocorre com a escala de horários de trabalho, que anteriormente era apenas um atributo da entidade médico, e agora
+se apresenta de maneira separada dessas entidades, permitindo que todos os funcionários tenham uma escala de trabalho mais fácil de ser administrada.
+
+4- Por fim, foi incluída a generalização/especialização proposta pela tabela funcionário. Que permite que funcionários, como 
+RH, enfermeiros, etc. possam também ser incluídos e gerenciados na base de dados.
+
+A estruturas de diretórios aqui apresentada é a mesma que na versão anterior, armazenada em seu respectivo diretório. No diretório principal temos
+o arquivo original e o PDF do diagrama entidade-relacionamento, além de um arquivo de texto com o esquema de relacionamentos e o script do banco já reformulado.
+Na pasta Adicionais temos o dicionário de dados da reformulação, e o diagrama conceitual da base de dados, tanto em PNG, como no arquivo original da ferramenta: brModelo.

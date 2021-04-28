@@ -1,0 +1,11 @@
+Laboratório de Banco de Dados - Projeto P1 - Parte 1
+Trabalho realizado por Felipe Silva Neves e Filipi Nudi para a disciplina de laboratório de Banco de Dados, ministrada pelo professor Antônio Guardado.
+
+Foram realizados no trabalho:
+- Uma modelagem dos dados, transcrita na tabela denominada Dicionário de Dados, dentro da pasta Adicionais;
+- Um diagrama conceitual, por meio da ferramenta brModelo, o qual o arquivo original e um PNG também se encontram na pasta Adicionais;
+- O diagrama entidade-relacionamento solicitado, por meio da Ferramenta SQL Power Architect, o qual há um arquivo PDF e o original no diretório principal;
+- O Esquema de Relações, disponível separadamente no diretório principal, como também se encontra no início do script do banco;
+- Por fim, o próprio script do Banco de Dados, realizado no SGBG Oracle, sendo observado, o que foi pedido: ações referenciais ON DELETE, e as sequências de números identificadores para as tabelas paciente e atendimento.
+
+São Paulo, 26/09/2020.
